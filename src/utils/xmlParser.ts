@@ -52,6 +52,6 @@ export const parseXMLToTask = (xmlString: string): Task => {
       environments,
       hours,
       status,
-    };
+    } as Task;
   };
   

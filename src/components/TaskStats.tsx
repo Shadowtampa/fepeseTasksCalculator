@@ -7,7 +7,7 @@ interface TaskStatsProps {
     tasks: { status: 'todo' | 'doing' | 'done' }[];
 }
 
-const TaskStats: React.FC<TaskStatsProps> = ({ totalHours, totalDays, tasks }) => {
+const TaskStats: React.FC<TaskStatsProps> = ({ totalHours, totalDays, tasks}) => {
 
     tasks.map(task => task.status === undefined ? task.status = 'todo' : task.status);
 
