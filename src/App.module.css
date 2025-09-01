@@ -1,0 +1,81 @@
+.container {
+    max-width: 1200px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 16px; /* Espaçamento interno */
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+    text-align: center; /* Centraliza o texto */
+    position: absolute; /* Permite centralização vertical */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -10%); /* Ajusta para o centro exato */
+}
+
+.totalizers {
+    margin-top: 24px;
+    padding: 16px;
+    background-color: #f4f4f4; /* Fundo claro */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.totalizers h2 {
+    margin-bottom: 16px;
+    color: #2c3e50; /* Cor do título */
+}
+
+.totalizers p {
+    margin: 8px 0;
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+}
+
+.totalValue {
+    font-weight: bold; /* Destaca os valores */
+    color: #3498db; /* Cor azul para os valores */
+    font-size: 1.5em; /* Aumenta o tamanho dos valores */
+}
+
+.addButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.addButton:hover {
+    background-color: #2980b9;
+}
+
+.content {
+    display: flex;
+    gap: 24px; /* Espaçamento entre os componentes */
+    margin-top: 24px;
+}
+
+.statsContainer {
+    flex: 1; /* Ocupa metade do espaço */
+}
+
+.taskList {
+    flex: 2; /* Ocupa mais espaço */
+}
+
+.statsRow {
+    display: flex; /* Organiza os componentes lado a lado */
+    gap: 24px; /* Espaçamento entre os componentes */
+    margin-bottom: 24px; /* Espaçamento abaixo da linha */
+}
+
+.statsRow > div {
+    flex: 1; /* Cada componente ocupa metade do espaço */
+}
+
+.taskListContainer {
+    margin-top: 24px; /* Espaçamento acima da lista */
+}

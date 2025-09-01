@@ -1,0 +1,5 @@
+Este app terá como objetivo a automatização de uma planilha que tenho.
+A planilha hoje possui 4 colunas: Task, Horas, Total em Horas e Total em Dias;
+Uma Task possui um título, um link jira, e um ou mais ambientes que será desenvolvida. 
+Algumas Tasks ainda possuem Tasks pai. 
+O objetivo deste projeto é simples: ser um projeto que me pergmite adicionar tarefas, salvá-las no localstorage, e calcular meu tempo de horas.

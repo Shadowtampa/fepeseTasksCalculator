@@ -1,0 +1,52 @@
+.statsContainer {
+    background: #ffffff; /* Fundo branco */
+    padding: 16px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.statsContainer h2 {
+    margin-bottom: 16px;
+    color: #2c3e50; /* Cor do título */
+}
+
+.statsContainer p {
+    margin: 8px 0;
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+}
+
+.totalValue {
+    font-weight: bold; /* Destaca os valores */
+    color: #3498db; /* Cor azul para os valores */
+    font-size: 1.5em; /* Aumenta o tamanho dos valores */
+}
+
+.statsRow {
+    display: flex; /* Organiza os elementos lado a lado */
+    gap: 24px; /* Espaçamento entre as divs */
+    margin-bottom: 24px; /* Espaçamento abaixo */
+}
+
+.stats, .totalizers {
+    flex: 1; /* Cada div ocupa metade do espaço disponível */
+    background: #ffffff; /* Fundo branco */
+    padding: 16px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.stats h2, .totalizers h2 {
+    margin-bottom: 16px;
+    color: #2c3e50; /* Cor do título */
+}
+
+.stats p, .totalizers p {
+    margin: 8px 0;
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+}
+
+.totalValue {
+    font-weight: bold; /* Destaca os valores */
+    color: #3498db; /* Cor azul para os valores */
+    font-size: 1.5em; /* Aumenta o tamanho dos valores */
+}
